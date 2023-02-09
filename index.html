@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body {
+		font-family: helvetica, arial, sans-serif;
+		background-color:white;
+		color:black;
+	}
+	h1{
+		font-size:50px;
+	}
+	button{
+		background-color:Ivory;
+		color: CornflowerBlue;
+	}
+	input{
+		width:30px;
+		height:30px;
+		text-align:center;
+
+	}
+	.clickclass{
+		color:red;
+	}
+	.democlass{
+		color:black;
+	}
+	.correctclass{
+		color:green;
+	}
+
+	div {
+	  width: 15%;
+	  padding: 10px;
+	  border: 5px solid gray;	
+	  margin: 0;
+ 	  position:absolute;		  
+	  right:5%;
+	  top:10%;
+	}
+	</style>
+</head>
+<body>
+	<center>
+		<br><br><br>
+<table>
+   <tr>
+      <td>
+         <input id="A1" class="democlass" type='button' value="C" onclick="addElem(this);">
+         <input id="A2" class="democlass" type='button' value="A" onclick="addElem(this);">
+         <input id="A3" class="democlass" type='button' value="N" onclick="addElem(this);">
+	<input id="A4" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input id="A5" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input id="A6" class="democlass" type='button' value="M" onclick="addElem(this);">
+	<input id="A7" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input id="A8" class="democlass" type='button' value="K" onclick="addElem(this);">
+	<input id="A9" class="democlass" type='button' value="F" onclick="addElem(this);">
+	<input id="A10" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input id="A11" class="democlass" type='button' value="R" onclick="addElem(this);">
+	<input id="A12" class="democlass" type='button' value="E" onclick="addElem(this);">
+	<input id="A13" class="democlass" type='button' value="A" onclick="addElem(this);">
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="B1" class="democlass" type='button' value="N" onclick="addElem(this);">
+         <input  id="B2" class="democlass" type='button' value="U" onclick="addElem(this);">
+         <input  id="B3" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="B4" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="B5" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="B6" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="B7" class="democlass" type='button' value="C" onclick="addElem(this);">
+	<input  id="B8" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="B9" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="B10" class="democlass" type='button' value="F" onclick="addElem(this);">
+	<input  id="B11" class="democlass" type='button' value="L" onclick="addElem(this);">
+	<input  id="B12" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="B13" class="democlass" type='button' value="G" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="C1" class="democlass" type='button' value="T" onclick="addElem(this);">
+         <input  id="C2" class="democlass" type='button' value="T" onclick="addElem(this);">
+         <input  id="C3" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="C4" class="democlass" type='button' value="V" onclick="addElem(this);">
+	<input  id="C5" class="democlass" type='button' value="D" onclick="addElem(this);">
+	<input  id="C6" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="C7" class="democlass" type='button' value="S" onclick="addElem(this);">
+	<input  id="C8" class="democlass" type='button' value="R" onclick="addElem(this);">
+	<input  id="C9" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="C10" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="C11" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="C12" class="democlass" type='button' value="A'" onclick="addElem(this);">
+	<input  id="C13" class="democlass" type='button' value="N" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="D1" class="democlass" type='button' value="V" onclick="addElem(this);">
+         <input  id="D2" class="democlass" type='button' value="O" onclick="addElem(this);">
+         <input  id="D3" class="democlass" type='button' value="L" onclick="addElem(this);">
+	<input  id="D4" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="D5" class="democlass" type='button' value="N" onclick="addElem(this);">
+	<input  id="D6" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="D7" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="D8" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="D9" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="D10" class="democlass" type='button' value="D" onclick="addElem(this);">
+	<input  id="D11" class="democlass" type='button' value="G" onclick="addElem(this);">
+	<input  id="D12" class="democlass" type='button' value="F" onclick="addElem(this);">
+	<input  id="D13" class="democlass" type='button' value="I" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="E1" class="democlass" type='button' value="B" onclick="addElem(this);">
+         <input  id="E2" class="democlass" type='button' value="M" onclick="addElem(this);">
+         <input  id="E3" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="E4" class="democlass" type='button' value="S" onclick="addElem(this);">
+	<input  id="E5" class="democlass" type='button' value="E" onclick="addElem(this);">
+	<input  id="E6" class="democlass" type='button' value="C" onclick="addElem(this);">
+	<input  id="E7" class="democlass" type='button' value="B" onclick="addElem(this);">
+	<input  id="E8" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="E9" class="democlass" type='button' value="K" onclick="addElem(this);">
+	<input  id="E10" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="E11" class="democlass" type='button' value="N" onclick="addElem(this);">
+	<input  id="E12" class="democlass" type='button' value="J" onclick="addElem(this);">
+	<input  id="E13" class="democlass" type='button' value="R" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="F1" class="democlass" type='button' value="O" onclick="addElem(this);">
+         <input  id="F2" class="democlass" type='button' value="O" onclick="addElem(this);">
+         <input  id="F3" class="democlass" type='button' value="D" onclick="addElem(this);">
+	<input  id="F4" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="F5" class="democlass" type='button' value="K" onclick="addElem(this);">
+	<input  id="F6" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="F7" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="F8" class="democlass" type='button' value="E" onclick="addElem(this);">
+	<input  id="F9" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="F10" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="F11" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="F12" class="democlass" type='button' value="U" onclick="addElem(this);">
+	<input  id="F13" class="democlass" type='button' value="E" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="G1" class="democlass" type='button' value="W" onclick="addElem(this);">
+         <input  id="G2" class="democlass" type='button' value="B" onclick="addElem(this);">
+         <input  id="G3" class="democlass" type='button' value="C" onclick="addElem(this);">
+	<input  id="G4" class="democlass" type='button' value="C" onclick="addElem(this);">
+	<input  id="G5" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="G6" class="democlass" type='button' value="C" onclick="addElem(this);">
+	<input  id="G7" class="democlass" type='button' value="T" onclick="addElem(this);">
+	<input  id="G8" class="democlass" type='button' value="M" onclick="addElem(this);">
+	<input  id="G9" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="G10" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="G11" class="democlass" type='button' value="L" onclick="addElem(this);">
+	<input  id="G12" class="democlass" type='button' value="J" onclick="addElem(this);">
+	<input  id="G13" class="democlass" type='button' value="E" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="H1" class="democlass" type='button' value="L" onclick="addElem(this);">
+         <input  id="H2" class="democlass" type='button' value="I" onclick="addElem(this);">
+         <input  id="H3" class="democlass" type='button' value="N" onclick="addElem(this);">
+	<input  id="H4" class="democlass" type='button' value="C" onclick="addElem(this);">
+	<input  id="H5" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="H6" class="democlass" type='button' value="L" onclick="addElem(this);">
+	<input  id="H7" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="H8" class="democlass" type='button' value="V" onclick="addElem(this);">
+	<input  id="H9" class="democlass" type='button' value="A" onclick="addElem(this);">
+	<input  id="H10" class="democlass" type='button' value="O" onclick="addElem(this);">
+	<input  id="H11" class="democlass" type='button' value="R" onclick="addElem(this);">
+	<input  id="H12" class="democlass" type='button' value="I" onclick="addElem(this);">
+	<input  id="H13" class="democlass" type='button' value="T" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="J1" class="democlass" type='button' value="I" onclick="addElem(this);">
+         <input  id="J2" class="democlass" type='button' value="L" onclick="addElem(this);">
+         <input  id="J3" class="democlass" type='button' value="J" onclick="addElem(this);">
+	 <input  id="J4" class="democlass" type='button' value="T" onclick="addElem(this);">
+	 <input  id="J5" class="democlass" type='button' value="E" onclick="addElem(this);">
+	 <input  id="J6" class="democlass" type='button' value="I" onclick="addElem(this);">
+	 <input  id="J7" class="democlass" type='button' value="L" onclick="addElem(this);">
+	 <input  id="J8" class="democlass" type='button' value="I" onclick="addElem(this);">
+	 <input  id="J9" class="democlass" type='button' value="F" onclick="addElem(this);">
+	 <input  id="J10" class="democlass" type='button' value="F" onclick="addElem(this);">
+	 <input  id="J11" class="democlass" type='button' value="U" onclick="addElem(this);">
+	 <input  id="J12" class="democlass" type='button' value="T" onclick="addElem(this);">
+	 <input  id="J13" class="democlass" type='button' value="N" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="K1" class="democlass" type='button' value="N" onclick="addElem(this);">
+         <input  id="K2" class="democlass" type='button' value="I" onclick="addElem(this);">
+         <input  id="K3" class="democlass" type='button' value="I" onclick="addElem(this);">
+	 <input  id="K4" class="democlass" type='button' value="U" onclick="addElem(this);">
+	 <input  id="K5" class="democlass" type='button' value="E" onclick="addElem(this);">
+	 <input  id="K6" class="democlass" type='button' value="S" onclick="addElem(this);">
+	 <input  id="K7" class="democlass" type='button' value="E" onclick="addElem(this);">
+	 <input  id="K8" class="democlass" type='button' value="N" onclick="addElem(this);">
+	 <input  id="K9" class="democlass" type='button' value="E" onclick="addElem(this);">
+	 <input  id="K10" class="democlass" type='button' value="P" onclick="addElem(this);">
+	 <input  id="K11" class="democlass" type='button' value="C" onclick="addElem(this);">
+	 <input  id="K12" class="democlass" type='button' value="S" onclick="addElem(this);">
+	 <input  id="K13" class="democlass" type='button' value="E" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="L1" class="democlass" type='button' value="G" onclick="addElem(this);">
+         <input  id="L2" class="democlass" type='button' value="S" onclick="addElem(this);">
+         <input  id="L3" class="democlass" type='button' value="I" onclick="addElem(this);">
+	 <input  id="L4" class="democlass" type='button' value="N" onclick="addElem(this);">
+	 <input  id="L5" class="democlass" type='button' value="D" onclick="addElem(this);">
+	 <input  id="L6" class="democlass" type='button' value="M" onclick="addElem(this);">
+	 <input  id="L7" class="democlass" type='button' value="P" onclick="addElem(this);">
+	 <input  id="L8" class="democlass" type='button' value="S" onclick="addElem(this);">
+	 <input  id="L9" class="democlass" type='button' value="A" onclick="addElem(this);">
+	 <input  id="L10" class="democlass" type='button' value="L" onclick="addElem(this);">
+	 <input  id="L11" class="democlass" type='button' value="O" onclick="addElem(this);">
+	 <input  id="L12" class="democlass" type='button' value="U" onclick="addElem(this);">
+	 <input  id="L13" class="democlass" type='button' value="I" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="M1" class="democlass" type='button' value="U" onclick="addElem(this);">
+         <input  id="M2" class="democlass" type='button' value="M" onclick="addElem(this);">
+         <input  id="M3" class="democlass" type='button' value="T" onclick="addElem(this);">
+	 <input  id="M4" class="democlass" type='button' value="E" onclick="addElem(this);">
+	 <input  id="M5" class="democlass" type='button' value="S" onclick="addElem(this);">
+	 <input  id="M6" class="democlass" type='button' value="O" onclick="addElem(this);">
+	 <input  id="M7" class="democlass" type='button' value="F" onclick="addElem(this);">
+	 <input  id="M8" class="democlass" type='button' value="T" onclick="addElem(this);">
+	 <input  id="M9" class="democlass" type='button' value="B" onclick="addElem(this);">
+	 <input  id="M10" class="democlass" type='button' value="A" onclick="addElem(this);">
+	 <input  id="M11" class="democlass" type='button' value="L" onclick="addElem(this);">
+	 <input  id="M12" class="democlass" type='button' value="L" onclick="addElem(this);">
+	 <input  id="M13" class="democlass" type='button' value="R" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+ <table>
+   <tr>
+      <td>
+         <input  id="N1" class="democlass" type='button' value="H" onclick="addElem(this);">
+         <input  id="N2" class="democlass" type='button' value="O" onclick="addElem(this);">
+         <input  id="N3" class="democlass" type='button' value="C" onclick="addElem(this);">
+	 <input  id="N4" class="democlass" type='button' value="K" onclick="addElem(this);">
+	 <input  id="N5" class="democlass" type='button' value="E" onclick="addElem(this);">
+	 <input  id="N6" class="democlass" type='button' value="Y" onclick="addElem(this);">
+	 <input  id="N7" class="democlass" type='button' value="S" onclick="addElem(this);">
+	 <input  id="N8" class="democlass" type='button' value="U" onclick="addElem(this);">
+	 <input  id="N9" class="democlass" type='button' value="P" onclick="addElem(this);">
+	 <input  id="N10" class="democlass" type='button' value="R" onclick="addElem(this);">
+	 <input  id="N11" class="democlass" type='button' value="A" onclick="addElem(this);">
+	 <input  id="N12" class="democlass" type='button' value="T" onclick="addElem(this);">
+	 <input  id="N13" class="democlass" type='button' value="O" onclick="addElem(this);">   
+      </td>
+    </tr>
+</table>
+	<div>
+		<label id="word0"> KARATE </label><br><label id="word1"> KENDO </label><br><label id="word2"> LOTTA </label><br><label id="word3"> MOTOCICLISMO </label><br>
+		<label id="word4"> NUOTO </label><br><label id="word5"> ORIENTEERING </label><br><label id="word6"> PELOTA BASCA </label><br><label id="word7"> POLO </label><br>
+		<label id="word8"> SOFTBALL </label><br><label id="word9"> TIRO A VOLO </label><br><label id="word10"> TUFFI </label><br><label id="word11"> VOLANO </label><br>
+		<label id="word12"> AIKIDO </label><br><label id="word13"> AUTOMOBILISMO </label><br><label id="word14"> BOCCE </label><br><label id="word15"> BOWLING </label><br>
+		<label id="word16"> CANOA </label><br><label id="word17"> CURLING </label><br><label id="word18"> KALI </label><br><label id="word19"> HOCKEY SU PRATO </label><br>
+		<label id="word20"> IAIDO </label><br><label id="word21"> JU JITSU </label><br><label id="word22"> JUDO </label>
+
+	</div>
+	<button type="button" style="position:absolute; right:7%; bottom:5%; width:15%; height:8%; font-size:30px;" onclick="check();">Controlla</button>
+</center>
+<script>
+	var word="";
+	var words=["KARATE","KENDO","LOTTA","MOTOCICLISMO","NUOTO","ORIENTEERING","PELOTABASCA","POLO","SOFTBALL","TIRO A VOLO","TUFFI","VOLANO","AIKIDO","AUTOMOBILISMO","BOCCE","BOWLING","CANOA","CURLING","KALI","HOCKEYSUPRATO","IAIDO","JU JITSU","JUDO"];
+	var indeces="";
+
+	function addElem(elem){
+		var classe = elem.getAttribute("class");
+		if(classe==="democlass"){
+			elem.setAttribute("class","clickclass");
+		}
+		word=word+elem.value
+		indeces=indeces+","+elem.id
+		console.log(word)
+	}
+
+	function check(){
+		var correct=0;
+		for (let i = 0; i < words.length; i++) {
+			if(words[i]===word){
+				correct=1;
+				document.getElementById("word"+i).setAttribute("class","correctclass");
+			}
+		}
+		if(correct==0){
+			numbers=indeces.split(",")
+			for (let j = 1; j < numbers.length; j++){
+				console.log(numbers)
+				document.getElementById(numbers[j]).setAttribute("class","democlass");
+			} 
+		}else{
+			numbers=indeces.split(",")
+			for (let j = 1; j < numbers.length; j++){
+				console.log(numbers)
+				document.getElementById(numbers[j]).setAttribute("class","correctclass");
+			} 
+		}	
+		word=""
+		indeces=""
+	}
+</script>
+</body>
+</html>
